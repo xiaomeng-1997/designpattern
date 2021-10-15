@@ -1,0 +1,13 @@
+package com.study.structuralpattern.bridge.demo;
+
+/**
+ * @author xiaomeng
+ * @description
+ * @date 2021/10/15
+ */
+public class Wallet extends Bag{
+    @Override
+    public void getName() {
+        System.out.println(color.getColor() + "Wallet");
+    }
+}
